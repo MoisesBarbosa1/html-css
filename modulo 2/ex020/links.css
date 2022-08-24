@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited{
+ color: blueviolet;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: yellow;
+}
+
+a:active{
+  color: blueviolet;
+}
+
+#moises{
+  background-color: aquamarine;
+  color: rgb(5, 32, 32);
+}
+
+a.moises::before{
+  content: 'moises';
+}
+
+a::after{
+  content: '[link]';
+  font-weight: normal;
+}
+
+/*
+
+  # = id
+  . = class
+  : = pseudo classe
+  :: = pseudo elemento
+  > = filhinho
+
+
+
+*/
