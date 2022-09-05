@@ -19,12 +19,6 @@ div#q2 {
   background-image: linear-gradient(to bottom, yellow, orange);
 }
 
-div#q2:hover {
-  background-image: linear-gradient(to bottom, lightblue, lightgreen);
-  width: 350px;
-  height: 350px;
-}
-
 div#q3 {
   background-image: url('imagens/pattern003.png');
 }
